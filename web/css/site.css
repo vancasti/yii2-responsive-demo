@@ -1,6 +1,7 @@
 html,
 body {
     height: 100%;
+    font-family: 'Hind', sans-serif;
 }
 
 .wrap {
@@ -106,6 +107,10 @@ a.desc:after {
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
     background-color: #bed53b;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus{
+    color: inherit;
 }
 
 .navbar-inverse li {
