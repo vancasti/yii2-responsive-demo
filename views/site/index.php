@@ -4,14 +4,14 @@
 
 use yii\data\ArrayDataProvider;
 
-$this->title = 'My Yii Application';
+$this->title = 'Idealista News Demo';
 ?>
 <div class="site-index">
 
     <div class="jumbotron">
         <div class="box">
             <h1>Información sobre vivienda y economía</h1>
-            <p class="lead">La actualidad inmobiliaria, económica y consejos sobre decoración </p>
+            <p class="lead">La actualidad inmobiliaria, económica y consejos sobre decoración.</p>
             <p><a class="btn btn-lg btn-pink" href="http://www.idealistanews.com">Entrar</a></p>
         </div>
     </div>

@@ -19,6 +19,7 @@ AppAsset::register($this);
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
+    <link rel="shortcut icon" href="@web/favicon.ico" type="image/x-icon" />
     <link href='https://fonts.googleapis.com/css?family=Hind' rel='stylesheet' type='text/css'>
     <?php $this->head() ?>
 </head>
@@ -65,7 +66,7 @@ AppAsset::register($this);
 
 <footer class="footer">
     <div class="container">
-        <p class="pull-left">&copy; <?= date('Y') ?>, Victor Castiñeira García - PHP Developer</p>
+        <p class="pull-left">&copy; <?= date('Y') ?>, Victor Castiñeira García - Freelance Developer</p>
 
         <p class="pull-right"><?= Yii::powered() ?></p>
     </div>
